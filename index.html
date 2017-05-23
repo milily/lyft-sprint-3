@@ -3,16 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Lyft and Play</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
 <!-- Sección que contiene el título y la navegación -->
-	<nav id="contenedor">
+	<nav class="contenedor" id="contenedor">
 		<div class="loguito">
 			<img class= "logo" src="assets/img/logo-white.png" alt="logo">
 		</div>
-		<div>
+		<div class="links" id="links">
 			<a href="#">Drive</a>
             <a href="#">Explore</a>
             <a href="#">Help</a>
@@ -30,16 +31,26 @@
 		</div>
 	</header>
 <!-- Play with Lyft -->
-	<section>
+	<section class="fondo" id="fondo">
 		<div>
 			<h1>PLAY WITH LYFT</h1>
 		</div>
-		<div>
-			<input type="text" placeholder="Phone Number">
-			<input type="text" placeholder="Phone Number">
-		</div>
-		<div>
-			<p>PLAY</p>
+		<div class="caja_juegos">
+			<div class="inputs">
+			   	<div class="input">
+			   		<i class="fa fa-car" aria-hidden="true"></i>
+			   		<input class="cajitas" id="numero" type="text">
+			   		
+			   	</div>
+			   	<div class="input">
+			   		<i class="fa fa-car" aria-hidden="true"></i>
+			   		<input class="cajitas" id="numero" type="text">
+			   		
+			   	</div>
+		   	</div>
+		   	<div>
+		   		<button class="cajitas" id="start">START</button>
+		   	</div>			
 		</div>
 	</section>
 <!-- Footer -->
