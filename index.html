@@ -21,14 +21,20 @@
 	</nav>
 <!-- Sing up -->
 	<header id="sign_up">
-		<div class="logo">
 			<div class="contenido">
-			<h2>TURN MILES INTO MONEY</h2>
-			<p>SING UP TO DRIVE LYFT</p>
-			<input type="text" placeholder="Phone Number">
-			<p>BECOME A DRIVER</p>
+				<div class="descripcion">
+					<h2>TURN MILES INTO MONEY</h2>
+						<div class="to_drive">
+							<h3 class="letras" id="letras">SING UP TO DRIVE LYFT</h3>
+						</div>
+					<input class="boton" id="phone_number" type="text" placeholder="Phone Number">
+					<button class="boton" id="boton_input">Become a Driver <i class="fa fa-heart" aria-hidden="true"></i></button>
+					<div class="caja_letras">
+						<h3 class="letras">Already applied? Check the status of your aplication here.</h3>
+						<h3 class="letras">Earn money for inviting friends to drive. Learn more.</h3>
+					</div>
+				</div>
 		    </div>
-		</div>
 	</header>
 <!-- Play with Lyft -->
 	<section class="fondo" id="fondo">
@@ -37,39 +43,45 @@
 		</div>
 		<div class="caja_juegos">
 			<div class="autos">
-			   	<div class="cajitas">
+			   	<div class="cajitas" id="cajitas">
 			   		<i class="fa fa-car" aria-hidden="true"></i>
-			   		<input class="input" id="posicion_x" type="text">
+			   		<input class="input" id="posicion_x" type="text" placeholder="X coordenate">
 			   	</div>
-			   	<div class="cajitas">
+			   	<div class="cajitas" id="cajitas_2">
 			   		<i class="fa fa-car" aria-hidden="true"></i>
-			   		<input class="input" id="posicion_y" type="text">
+			   		<input class="input" id="posicion_y" type="text" placeholder="Y coordenate">
 			   	</div>
 		   	</div>
 		   	<div>
-		   		<button class="cajitas" id="start">START</button>
+		   		<button id="start">START</button>
 		   	</div>			
 		</div>
 	</section>
 <!-- Footer -->
 	<footer>
-		<div class="descripcion">
-			<p>Sprint 3 - Proyect</p>
+		<div class="descripcion" id="caja_descript_uno">
+			<h1>Sprint 3 - Proyect</h1>
 			<p>Lyft & Play</p>
 			<p>Calle Los Pumas 1180, Recoleta. Santiago</p>
 			<p>Teléfono: +56 9 84240970</p>
 		</div>
-		<div class="descripcion">
-			<p>Links</p>
-			<ul>
-				<li><a href="#">Link 1</a></li>
-				<li><a href="#">Link 2</a></li>
-				<li><a href="#">Link 3</a></li>
-			</ul>
+		<div class="descripcion" id="caja_descript_dos">
+			<h1 class="titulo_links" >More Proyects</h1>
+			<div class="links_footer">
+				<p><a href="https://milily.github.io/la-casita">Little House</a></p>
+				<p><a href="https://milily.github.io/Panda-Panda">Panda Panda</a></p>
+				<p><a href="https://milily.github.io/bicis-locas">Crazy Bikes</a></p>
+			</div>
 		</div>
 		<div class="copyright">
 			<p>&copy;2017 Lyft & Laboratoria, Inc</p>
-			<a href="#">More Links</a>
+			<div class="redes_sociales">
+				<a href="https://www.facebook.com/laboratoriachile/" class="icono">
+				<i class="fa fa-facebook" aria-hidden="true"></i></a>
+				<a href="https://twitter.com/Laboratoriacl/" class="icono">
+				<i class="fa fa-twitter" aria-hidden="true"></i></a>
+				<a href="https://www.instagram.com/laboratoriacl/" class="icono"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			</div>
 		</div>
 	</footer>
 	<script src="assets/js/main.js"></script>

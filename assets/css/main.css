@@ -5,9 +5,7 @@ Colors:
 	margin: 0;
 	padding: 0;
 }
-body{
-	margin: 0;
-}
+/********NAVEGACION*********/
 #contenedor{
 	background-color: #E54E79;
 	position: fixed;
@@ -43,17 +41,77 @@ body{
 	text-decoration: none;
 	padding: 27px 20px;
 }
+/**********CAJA SIGN UP*************/
 #sign_up{
 	background:url('../img/cropped-Lyft-Promo-Codes-car-1.jpg');
+	background-attachment : fixed;
 	background-size: cover;
 	width: 100%;
 	height: 900px;
 }
 .contenido{
+	background-color: #EDE9E2;
+	width: 504px;
+	height: 400px;
 	position: relative;
-	margin-left: 800px;  
+	padding-right: 15px;
+	left: 830px; 
 	top: 300px;
-	}
+}
+.descripcion{
+	position: relative;
+	left: 18px;
+}
+.contenido div h2{
+	position: relative;
+	right: 5px;
+	font-family: 'Raleway', sans-serif;
+	color: #00B2A9;
+	font-size: 1.8em;
+	padding-top: 10px;
+}
+#letras{
+	padding-top: 10px;
+}
+.caja_letras{
+	position: relative;
+	top: 35px;
+}
+.letras{
+	font-family: 'Raleway', sans-serif;
+	color: #75726C;
+	font-size: 1em;
+	padding-bottom: 20px;	
+}
+.to_drive{
+	position: relative;
+	top: 10px;
+}
+#boton_input{
+	position: relative;
+	right: 3px;
+	top: 15px;
+	background-color: #E54E79;
+	width: 240px;
+	height: 50px;
+	border-radius: 15px;
+	font-family: 'Raleway', sans-serif;
+	color: #FFFFFF;
+	font-size: 1.2em;
+}
+#phone_number{
+	border: none;
+	font-family: 'Raleway', sans-serif;
+	color: #75726C;
+	font-size: 1em;
+	width: 350px;
+	padding-top: 40px;
+	padding-right: 70px;
+	background-color: #EDE9E2;
+	border-bottom: 0.05px solid;
+	border-color: #75726C;
+}
+/*********PLAY WITH LYFT*******/
 #fondo{
 	background-color: #00B2A9;
 	width: 100%;
@@ -82,27 +140,33 @@ body{
 }
 .caja_juegos div div i{
 	color: #75726C;
+	font-size: 40px;
 }
 .autos{
 	padding-left: 200px; 
-	padding-top: 150px;
-	margin-left: 80px;
-	margin-right: 50px;
-	border: 50px;
-	
+	padding-top: 100px;
+	margin-left: 20px;
 }
 .cajitas{
-	display: inline-block;
-	margin-left: 10px;
+	display: inline-block;	
 }
 .input{
 	border: none;
-	border-bottom: 50px;
-	padding-left: 20px;
-	padding-right: 30px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
+	padding-left: 120px;
+	padding-right: 80px;
 	background-color: #EDE9E2;
 	border-bottom: 0.2px solid;
 	border-color: #75726C;
+}
+#cajitas{
+	position: relative;
+	right: 130px;
+}
+#cajitas_2{
+	position: relative;
+	right: 90px;
 }
 #start{
 	background-color: #00B2A9;
@@ -116,18 +180,63 @@ body{
 	color: #EDE9E2;
 	font-size: 1.5em;
 }
+/***********FOOTER************/
 footer{
 	background-color: #75726C;
-	height: 220px;
+	height: 256px;
+}
+.descripcion{
+	display: inline-block;
+	padding-top: 40px;
+	padding-left: 30px;
+}
+.descripcion h1{
+	padding-bottom: 20px;
+	font-family: 'Raleway', sans-serif;
+	color: #EDE9E2;
+	font-size: 1.4em; 
 }
 .descripcion p{
 	font-family: 'Raleway', sans-serif;
 	color: #EDE9E2;
-	font-size: 1.3em;
+	font-size: 1.2em;
+}
+#caja_descript_uno{
+	position: relative;
+	left: 100px;
+}
+#caja_descript_dos{
+	position: relative;
+	left: 500px;
+	top: 0px;
+}
+.links_footer a{
+	font-family: 'Raleway', sans-serif;
+	color: #EDE9E2;
+	text-decoration: none;
+	font-size: 1em;
+}
+.links_footer p{
+	margin-bottom: 5px;
 }
 .copyright{
 	position: relative;
-	top: 40px;
+	top: 31px;
 	background-color: #616060;
-	height: 60px;
+	height: 57px;
+}
+.copyright p{
+	position: relative;
+	top: 23px;
+	font-family: 'Raleway', sans-serif;
+	color: #EDE9E2;
+	font-size: 1em;
+	margin-left: 130px;
+}
+.redes_sociales i{
+	color: #EDE9E2;
+	font-size: 32px;
+	position: relative;
+	bottom: 3px;
+	left: 80%;
 }
